@@ -1,0 +1,29 @@
+{
+  "name": "file-upload-hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "boom": "^7.2.0",
+    "del": "^2.2.2",
+    "hapi": "^17.3.0",
+    "lokijs": "^1.4.2",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "@azure/storage-blob": "^12.1.2",
+    "@types/boom": "^7.2.0",
+    "@types/del": "^3.0.1",
+    "@types/hapi": "^17.0.7",
+    "@types/lokijs": "^1.5.2",
+    "@types/uuid": "^3.4.3",
+    "dotenv": "^8.2.0",
+    "into-stream": "^5.1.1",
+    "typescript": "^2.8.1"
+  }
+}
